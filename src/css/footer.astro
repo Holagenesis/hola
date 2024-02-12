@@ -1,0 +1,111 @@
+<footer>
+    <div class="footer_socials">
+        <a href="#"><i class="uil uil-youtube"></i></a>
+        <a href="#"><i class="uil uil-facebook"></i></a>
+        <a href="#"><i class="uil uil-instagram"></i></a>
+        <a href="#"><i class="uil uil-linkedin"></i></a>
+        <a href="#"><i class="uil uil-twitter"></i></a>
+    </div>
+    <div class="container footer_container">
+        <article>
+            <h4>Soporte</h4>
+            <ul>
+                <li><a href="#">online</a></li>
+                <li><a href="#">contacto</a></li>
+                <li><a href="#">emails</a></li>
+                <li><a href="">numeros</a></li>
+                <li><a href="">direccion</a></li>
+            </ul>
+        </article>
+        <article>
+            <h4>Blog</h4>
+            <ul>
+                <li><a href="">Telecomunicaciones</a></li>
+                <li><a href="">Comunicacion satelital</a></li>
+                <li><a href="">Tecnologia</a></li>
+                <li><a href="">Estudio</a></li>
+                <li><a href="">Investigacion</a></li>
+            </ul>
+        </article>
+        <article>
+            <h4>Links</h4>
+            <ul>
+                <li><a href="">INICIO</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">SOBRE MI</a></li>
+                <li><a href="">SERVICIOS</a></li>
+                <li><a href="">CONTACTO</a></li>
+            </ul>
+        </article>
+    </div>
+    <div class="footer_copyright">
+        <small>Copyright &copy; Uneg, Telecomunicaciones</small>
+    </div>
+</footer>
+
+
+<style>
+footer{
+    background: var(--color-primary);
+    padding: 5rem 0 0;
+    box-shadow: inset 0 1.5rem 1.5rem rgba(0, 0, 0, 0.2);
+}
+
+.footer_socials{
+    margin-inline: auto;
+    width: fit-content;
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.footer_socials a{
+    background: var(--color-gray-700);
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer_socials a:hover{
+    background: var(--color-white);
+    color: var(--color-gray-900);
+}
+
+.footer_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+footer h4{
+    color: var(--color-white);
+    margin-bottom: 0.6rem;
+}
+
+footer ul li{
+    padding: 0.4rem 0;
+    margin-left:12rem;
+}
+
+footer ul a {
+    opacity: 0.75;
+}
+
+footer ul a:hover{
+    letter-spacing: 0.2rem;
+    opacity: 1;
+}
+
+.footer_copyright{
+    text-align: center;
+    padding: 1.5rem 0;
+    border-top: 1px solid var(--color-white);
+    margin-top: 2rem;
+}
+
+</style>

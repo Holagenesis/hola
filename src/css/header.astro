@@ -1,0 +1,67 @@
+<nav>
+    <div class="container nav_container">
+        <a href="#" class="nav_logo">BLOG</a>
+        <ul class="nav_items">
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">SOBRE NOSOTROS</a></li>
+            
+            <li><a href="#">CONTACTO</a></li>
+
+
+            <li><a href="#">INGRESAR</a></li>
+
+          
+        </ul>
+        <button id="open_nav"><i class="uil uil-bars"></i></button>
+        <button id="close_nav"><i class="uil uil-multiply"></i></button>
+    </div>
+</nav>
+
+<style>
+
+
+    nav{
+        background: var(--color-primary);
+        width: 100vw;
+        height: 4.5rem;
+        position: fixed;
+        top: 0;
+        z-index: 10;
+        box-shadow: 0 1rem 1rem rgba(133, 130, 130, 0.3);
+    }
+    
+    .nav_container{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    
+.avatar{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 0.2rem solid var(--color-primary);
+
+}
+
+.nav_logo{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+}
+
+.nav_items{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+    
+    </style>
+   
